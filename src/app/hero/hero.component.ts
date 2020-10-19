@@ -16,7 +16,7 @@ export class HeroComponent implements OnInit {
 
   this.heroText =  "This is the first time i am using Angular and Typescript alone by myself to learn it because i really like it and i want to learn a lot about all of thi shit" ;
 
-  this.heroBtnText =  "Learn more" ;
+  this.heroUnText =  "See below which technologies i learned in the last 7 weeks" ;
 
   this.heroBtnUrl =  "https://codefactory.wien"  ;
   }

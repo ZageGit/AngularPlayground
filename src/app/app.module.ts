@@ -7,6 +7,10 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HeroComponent } from './hero/hero.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { AboutPageComponent } from './about-page/about-page.component';
+import { FooterComponent } from './footer/footer.component';
+import { JavaComponent } from './java/java.component';
+import { HtmlComponent } from './html/html.component';
+import { FullStackComponent } from './full-stack/full-stack.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +18,11 @@ import { AboutPageComponent } from './about-page/about-page.component';
     NavbarComponent,
     HeroComponent,
     HomePageComponent,
-    AboutPageComponent
+    AboutPageComponent,
+    FooterComponent,
+    JavaComponent,
+    HtmlComponent,
+    FullStackComponent
   ],
   imports: [
     BrowserModule,
