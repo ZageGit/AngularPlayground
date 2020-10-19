@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { JavaComponent } from './java/java.component';
 import { HtmlComponent } from './html/html.component';
 import { FullStackComponent } from './full-stack/full-stack.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FullStackComponent } from './full-stack/full-stack.component';
     FooterComponent,
     JavaComponent,
     HtmlComponent,
-    FullStackComponent
+    FullStackComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
